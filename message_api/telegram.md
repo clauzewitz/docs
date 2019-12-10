@@ -4,15 +4,14 @@
 [참고문서](https://core.telegram.org/bots)
 
 ### 봇 만들기
-텔레그램 봇을 만들기 위해서 텔레그램 [botFarther](https://telegram.me/botfather) 사이트로 이동한다.
-이후, 아래와 같이 설정한다.
+텔레그램 봇을 만들기 위해서 텔레그램 [botFarther](https://telegram.me/botfather) 사이트로 이동한다. 이후, 아래와 같이 설정한다.
 
 #### 봇 생성
 ![telegram01.png](telegram01.png)  
 채팅창에 /newbot 을 입력한다.
 
 ![telegram02.png](telegram02.png)  
-봇의 이름을 설정한다. 마지막 suffix 는 _bot 으로 끝남에 주의하고, "Use this token...." 으로 시작하는 부분의 accessToken 을 적어둔다.
+봇의 이름을 설정한다. 마지막 suffix 는 _bot 으로 끝남에 주의하고, "Use this token...." 으로 시작하는 부분의 accessToken 을 적어둔다.  
 해당 accessToken 을 이용하여 아래의 API 를 호출하여 봇이 생성되었는지 확인한다.
 ##### Request URL
 ```
@@ -62,5 +61,5 @@ https://api.telegram.org/bot<ACCESS_TOKEN>/getWebhookInfo
 수신 확인 버튼이 사라지면서 확인 메세지가 수신된다.
 
 ### 결과
-메세지를 수신 받는 것까지 확인하였고, 버튼을 통한 이벤트 처리까지 확인하였다.
+메세지를 수신 받는 것까지 확인하였고, 버튼을 통한 이벤트 처리까지 확인하였다.  
 여러 사람에게 메세지를 보내는 것도 가능하다. 단, 메세지를 전송할 수 있도록 사용자를 등록하는 과정이 필요하다.
