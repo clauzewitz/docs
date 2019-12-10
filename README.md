@@ -11,3 +11,6 @@
 	+ [Elastalert](../master/elasticsearch-alarm/elastalert.md)
 	+ [Elktail](../master/elasticsearch-alarm/elktail.md)
 	+ [X-Pack](../master/elasticsearch-alarm/xpack.md)
+	+ [Low Level Rest Client](../master/elasticsearch-alarm/lowlevel.md)
+	+ [High Level Rest Client](../master/elasticsearch-alarm/highlevel.md)
+	+ [Spring Data](../master/elasticsearch-alarm/springdata.md)
