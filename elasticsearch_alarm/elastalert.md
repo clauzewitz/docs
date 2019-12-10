@@ -47,11 +47,11 @@ $ pip install elastalert
 $ elastalert --config config.yaml
 ```
 
-실행에 필요한 자세한 명령어는 아래 문서를 참고한다.
+실행에 필요한 자세한 명령어는 아래 문서를 참고한다.  
 [참고문서](https://elastalert.readthedocs.io/en/latest/elastalert.html#running-elastalert)
 
 ### Sample Rule
-각 패턴에 맞는 규칙 파일은 아래의 주소를 참조한다.
+각 패턴에 맞는 규칙 파일은 아래의 주소를 참조한다.  
 [참고문서](https://github.com/Yelp/elastalert/tree/master/example_rules)
 
 각 규칙 파일들은 config.yaml 의 rules_folder 항목에 규칠 파일들이 위치한 디렉토리를 지정하여 복수 적용이 가능하게 할 수 있다.

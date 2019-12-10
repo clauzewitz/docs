@@ -7,7 +7,7 @@
 cli 기반으로 elasticsearch 를 조회 및 tail 기능을 제공한다.
 
 ### 설치환경
-elktail 은 go 언어가 설치되어 있어야한다. go 언어 설치는 아래 문서를 참고한다.
+elktail 은 go 언어가 설치되어 있어야한다. go 언어 설치는 아래 문서를 참고한다.  
 [참고문서](https://golang.org/doc/install#install)
 
 설치는 아래 명령어를 통해 설치한다.
@@ -20,7 +20,7 @@ $ go get github.com/knes1/elktail
 $ elktail --url "http://xxxx.example.com:9200" -f '%@timestamp %log'
 ```
 
-실행에 필요한 자세한 명령어는 아래 문서를 참고한다.
+실행에 필요한 자세한 명령어는 아래 문서를 참고한다.  
 [참고문서](https://github.com/knes1/elktail#other-options)
 
 ### 활용 방안
