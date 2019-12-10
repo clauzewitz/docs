@@ -8,10 +8,10 @@
 이후, 아래와 같이 설정한다.
 
 #### 봇 생성
-![telegram01.png](telegram01.png)
+![telegram01.png](telegram01.png)  
 채팅창에 /newbot 을 입력한다.
 
-![telegram02.png](telegram02.png)
+![telegram02.png](telegram02.png)  
 봇의 이름을 설정한다. 마지막 suffix 는 _bot 으로 끝남에 주의하고, "Use this token...." 으로 시작하는 부분의 accessToken 을 적어둔다.
 해당 accessToken 을 이용하여 아래의 API 를 호출하여 봇이 생성되었는지 확인한다.
 ##### Request URL
@@ -54,11 +54,11 @@ https://api.telegram.org/bot<ACCESS_TOKEN>/getWebhookInfo
 ![telegram04.png](telegram04.png)
 
 #### 메세지를 수신하였을 때
-![telegram05.png](telegram05.png)
+![telegram05.png](telegram05.png)  
 에러가 발생되었다는 메세지와 함께 수신 확인 버튼이 표시된다.
 
 #### 메세지를 수신하여 이벤트를 처리하였을 때
-![telegram06.png](telegram06.png)
+![telegram06.png](telegram06.png)  
 수신 확인 버튼이 사라지면서 확인 메세지가 수신된다.
 
 ### 결과
