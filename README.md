@@ -19,3 +19,4 @@
 * Etc
 	+ [애플 영수증 유형](../master/etc/apple_receipt_type.md)
 	+ [애플 영수증 pending_renewal_info](../master/etc/apple_receipt_pending_renewal_info.md)
+	+ [페이스북/구글 유저 정보 조회](../master/etc/facebook_and_google_get_user_info.md)
