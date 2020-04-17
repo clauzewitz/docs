@@ -22,3 +22,4 @@
 	+ [페이스북/구글 유저 정보 조회](../master/etc/facebook_and_google_get_user_info.md)
 	+ [애플 샌드박스 영수증 검증시 21004 에러](../master/etc/apple_sandbox_shared_secret.md)
 	+ [이클립스에 Tomcat v8.X.X 연동 시 "installation is expected" 에러](../master/etc/eclipse_tomcat_v8_x_x.md)
+	+ [Google Developer API 호출 시 html 형식의 "We're sorry..." 에러](../master/etc/google_api_html_error.md)
