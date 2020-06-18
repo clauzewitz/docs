@@ -11,6 +11,7 @@
 * 윈도우 환경에서 fluent-gem 을 통한 mongodb plugin 을 설치할 때 "ERROR: Failed to build gem native extension" 에러 발생 시
 	+ 최신 버전에 윈도우용 plugin 이 존재하지 않아 발생되는 에러
 	+ gem install fluent-plugin-mongo -v 0.7.16 으로 설치
+* 입력받는 소스에는 'time' 이란 key 를 사용하는 value 의 유형은 'string' 또는 'number' 로만 제한하여야 한다. 플루언트에서는 'time' key 는 일종의 예약어로 'string' 또는 'number' 유형만 지원하기 때문
 
 ## Document
 [https://docs.fluentd.org/](https://docs.fluentd.org/)
