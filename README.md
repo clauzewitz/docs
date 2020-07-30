@@ -24,3 +24,4 @@
 	+ [이클립스에 Tomcat v8.X.X 연동 시 "installation is expected" 에러](../master/etc/eclipse_tomcat_v8_x_x.md)
 	+ [Google Developer API 호출 시 html 형식의 "We're sorry..." 에러](../master/etc/google_api_html_error.md)
 	+ [애플 Refund Notification](../master/etc/apple_refund_notification.md)
+	+ [구글 Real-time Notification](../master/etc/google_real_time_notification.md)
