@@ -37,23 +37,30 @@ Google Cloud 에서 제공하는 Pub/Sub 을 이용한 메시지 수신을 확�
 
 ## 설정
 ### Google Cloud Pub/Sub 설정
-![google_real_time_notification01.png](google_real_time_notification01.png)
+![google_real_time_notification01.png](google_real_time_notification01.png)  
 * Google Cloud Console 에 접속 후 빅데이터 > Pub/Sub 메뉴로 이동한다.
-![google_real_time_notification02.png](google_real_time_notification02.png)
+
+![google_real_time_notification02.png](google_real_time_notification02.png)  
 * 상단의 "주제 만들기"를 클릭하여 주제를 생성한다.
-![google_real_time_notification03.png](google_real_time_notification03.png)
+
+![google_real_time_notification03.png](google_real_time_notification03.png)  
 * 주제 ID 를 작성하여 하단의 "주제 만들기" 버튼을 클릭하여 생성한다.
 	+ 주제는 각 게임별로 생성하며 주제 ID 의 규칙은 아래와 같다.
 		- iap-{game-name}
-![google_real_time_notification04.png](google_real_time_notification04.png)
+
+![google_real_time_notification07.png](google_real_time_notification07.png)  
 * 생성된 주제의 맨 우측의 "more" 버튼을 클릭하여 권한 보기를 선택한다.
-![google_real_time_notification05.png](google_real_time_notification05.png)
+
+![google_real_time_notification08.png](google_real_time_notification08.png)  
 * "구성원 추가" 버튼을 클릭한다.
-![google_real_time_notification06.png](google_real_time_notification06.png)
+
+![google_real_time_notification09.png](google_real_time_notification09.png)  
 * 새 구성원에 "google-play-developer-notifications@system.gserviceaccount.com" 을 지정하고, 역할에는 "게시/구독 게시자" 를 선택하고 저장한다.
-![google_real_time_notification07.png](google_real_time_notification07.png)
+
+![google_real_time_notification04.png](google_real_time_notification04.png)  
 * 좌측의 "구독" 메뉴를 선택 후 "구독 만들기" 버튼을 클릭한다.
-![google_real_time_notification08.png](google_real_time_notification08.png)
+
+![google_real_time_notification05.png](google_real_time_notification05.png)  
 * 구독 ID 는 주제 ID 와 동일하게 설정한다.
 * Cloud Pub/Sub 주제 선택
 	+ 앞서 생성한 주제 ID 를 선택한다.
@@ -63,15 +70,17 @@ Google Cloud 에서 제공하는 Pub/Sub 을 이용한 메시지 수신을 확�
 	+ 만료되지 않음 선택
 * 확인 기한
 	+ 구독을 수신하고 수신 여부를 전달받는 시간으로 넉넉하게 60초로 설정한다.
-![google_real_time_notification09.png](google_real_time_notification09.png)
+
+![google_real_time_notification06.png](google_real_time_notification06.png)  
 * 메시지 보관 기간
 	+ 7일로 설정한다.
 	+ 만약 해당 메세지를 수신하였다는 응답을 받지 못하면 7일 내에 다시금 전달된다.
 
 ### Play Console 설정
-![google_real_time_notification10.png](google_real_time_notification10.png)
+![google_real_time_notification10.png](google_real_time_notification10.png)  
 * Google Play Console 에 접속하고, 설정할 게임을 선택한 후 좌측의 개발 도구 > 서비스 및 API 메뉴를 선택한다.
-![google_real_time_notification11.png](google_real_time_notification11.png)
+
+![google_real_time_notification11.png](google_real_time_notification11.png)  
 * 하단의 "실시간 개발자 알림" 항목에 앞서 생성한 주제 이름을 입력하여 저장한다.
 
 ## notification data
