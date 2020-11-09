@@ -70,7 +70,7 @@ config.reload.interval: 3s
 
 ### pipelines.yml
 읽어들일 파이프라인의 설정파일을 설정한다.  
-windows 환경에서는 '\' 을 '\\' 로 표현함에 주의한다.
+windows 환경에서는 '\\' 을 '\\\\' 로 표현함에 주의한다.
 ```
 - pipeline.id: sample_test
   path.config: "D:\\temp_project\\logstash-7.0.1\\config\\sample_test.config"
