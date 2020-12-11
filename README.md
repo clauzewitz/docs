@@ -25,3 +25,4 @@
 	+ [Google Developer API 호출 시 html 형식의 "We're sorry..." 에러](../master/etc/google_api_html_error.md)
 	+ [애플 Refund Notification](../master/etc/apple_refund_notification.md)
 	+ [구글 Real-time Notification](../master/etc/google_real_time_notification.md)
+	+ [Docker desktop 3.0.0 업데이트 후 "Mounts denied: approving" 에러](../master/etc/docker_desktop_v3.0.0.md)
