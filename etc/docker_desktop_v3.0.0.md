@@ -5,3 +5,4 @@
 이는 새로이 추가된 gRPC 관련 설정으로 인한 오류로써 아래와 같은 방법으로 해결할 수 있다.
 * Docker desktop 의 gRPC 설정을 비활성화한다.
 	+ Preferences -> Experimental Features -> Use gRPC FUSE for file sharing 항목 비활성화한다.
+	+ [참고문서](https://github.com/docker/for-mac/issues/5115)
