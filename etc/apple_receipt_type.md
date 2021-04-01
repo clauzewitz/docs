@@ -17,4 +17,5 @@ in_app 필드가 비어있는 경우도 유효한 영수증이며, 비 소모품
 [참고문서](https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html#//apple_ref/doc/uid/TP40010573-CH104-SW1)
 
 ## pending_renewal_info 필드
+자세한 내용은 [애플 영수증 pending_renewal_info](https://github.com/clauzewitz/docs/blob/master/etc/apple_receipt_pending_renewal_info.md) 문서를 참조한다.
 > Only returned for iOS 7 style app receipts containing auto-renewable subscriptions. In the JSON file, the value of this key is an array where each element contains the pending renewal information for each auto-renewable subscription identified by the [Product Identifier](https://developer.apple.com/library/archive/releasenotes/General/ValidateAppStoreReceipt/Chapters/ReceiptFields.html#//apple_ref/doc/uid/TP40010573-CH106-SW11). A pending renewal may refer to a renewal that is scheduled in the future or a renewal that failed in the past for some reason.
