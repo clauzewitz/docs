@@ -30,3 +30,4 @@
 		- [구글 Real-time Notification](../master/etc/google_real_time_notification.md)
 	+ [Docker desktop 3.0.0 업데이트 후 "Mounts denied: approving" 에러](../master/etc/docker_desktop_v3.0.0.md)
 	+ [Error: Exception in thread "main" java.lang.UnsupportedOperationException](../master/etc/error_windows_kafka_posix.md)
+	+ [Error: relation ... already exists](../master/etc/error_jpa_relation_already_exists.md)
