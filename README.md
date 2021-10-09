@@ -31,3 +31,4 @@
 	+ [Docker desktop 3.0.0 업데이트 후 "Mounts denied: approving" 에러](../master/etc/docker_desktop_v3.0.0.md)
 	+ [Error: Exception in thread "main" java.lang.UnsupportedOperationException](../master/etc/error_windows_kafka_posix.md)
 	+ [Error: relation ... already exists](../master/etc/error_jpa_relation_already_exists.md)
+	+ [ERROR: org.springframework.web.reactive.function.client.WebClientRequestException: readAddress(..) failed: Connection reset by peer](../master/etc/error_webflux_connection_reset_by_peer.md)
