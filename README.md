@@ -35,3 +35,4 @@
 		- [구글 Real-time Notification](../master/etc/google_real_time_notification.md)
 	+ [Docker desktop 3.0.0 업데이트 후 "Mounts denied: approving" 에러](../master/etc/docker_desktop_v3.0.0.md)
 	+ [ERROR: org.springframework.web.reactive.function.client.WebClientRequestException: readAddress(..) failed: Connection reset by peer](../master/etc/error_webflux_connection_reset_by_peer.md)
+	+ [Java Base64 Url Safe](../master/etc/java_encode_base64_url_safe.md)
