@@ -1,4 +1,4 @@
-# Base64 문자열의 Url Safe
+# Base64 문자열의 Url Safe for java
 
 ## Base64 문자열의 Url Safe
 Base64 로 인코딩된 문자열을 Url 의 Query String 에 사용 시 브라우저에서 Url 인코딩으로 자동 변환되어 사용된다. 이 때 Base64 에서 사용되는 기타 특수 문자들은 문제가 없으나 하기의 특수 문자들인 경우 Url 디코딩 시에 문제가 발생한다.  
